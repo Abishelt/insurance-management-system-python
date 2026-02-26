@@ -1,24 +1,29 @@
 # Insurance Management System (Python)
 
 ## Overview
-A Python-based insurance administration system that models customers, risk profiles, insurance products, policy rules, premium calculations, and claims processing.
+A Python-based insurance management system that models customers, policies, claims, and agents. The project demonstrates object-oriented programming, data handling, and workflow simulation for a business domain.
 
-## Key features
-- Domain modelling using **dataclasses**
-- Strong rule enforcement using **Pydantic validation**
-- Multiple insurance lines (e.g., motor, home, life, business)
-- Policy constraints and validation examples (valid + invalid scenarios)
-- Premium calculation logic including fees and VAT
-- Claims workflow and payout logic
+## Tools & Technologies
+- Python (object-oriented design, data structures)
+- GitHub + VS Code (version control, reproducible workflows)
+- Business concepts (policy management, claims processing, customer records)
 
-## Project structure
-- `/notebooks/`
-  - `Insurance_Systems.ipynb` – system classes and core logic
-  - `Insurance_Validation_Examples.ipynb` – validation and example runs
-- `/docs/`
-  - `Insurance_Report.md` / `Insurance_Report.pdf` – write-up and results
+## Key Features
+- Classes for Customers, Policies, Claims, and Agents
+- Methods to create, update, and manage insurance records
+- Simulation of policy issuance and claims handling
+- Modular design for scalability and future integration
 
-## How to run
-1. Open the notebooks in Jupyter / VS Code / Google Colab.
-2. Run `Insurance_Systems.ipynb` first (core system).
-3. Run `Insurance_Validation_Examples.ipynb` to see validation scenarios and outputs.
+## Business Value
+This project shows how Python can be used to model real-world business processes. It highlights your ability to translate requirements into code, automate workflows, and create systems that support decision-making in insurance operations.
+
+## How to Run
+1. Clone the repository  
+2. Open in VS Code  
+3. Run `main.py` to simulate insurance workflows  
+4. Review outputs for customer, policy, and claim management  
+
+## Learning Outcomes
+- Strengthened skills in Python OOP and modular design  
+- Gained experience modeling business processes in code  
+- Improved ability to document and structure projects for clarity and reproducibility
